@@ -79,7 +79,7 @@ a {
     display: grid;
     grid-template-columns: var(--grid-container);
     position: fixed;
-    /* background-color: var(--color-dark); */
+    background-color: var(--color-dark);
     z-index: 9;
 }
 
@@ -137,7 +137,6 @@ a {
     display: grid;
     grid-template-columns: var(--grid-container);
     background-color: var(--color-dark);
-    /* margin-bottom: 6rem; */
 }
 
 .hero__inner {
@@ -152,6 +151,7 @@ a {
     flex-direction: column;
     align-items: center;
     color: var(--color-font-accent);
+    z-index: 10;
 }
 
 .hero__mandala {
