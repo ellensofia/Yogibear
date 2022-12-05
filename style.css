@@ -157,7 +157,6 @@ a {
 }
 
 .hero__mandala {
-    width: 44,67rem;
     opacity: 15%;
     position: absolute;
     top: 2.6rem;
@@ -376,6 +375,7 @@ figure {
 .share__inner {
     grid-column: inner;
 }
+
 .share span {
     color: var(--color-font-text);
 }
@@ -490,8 +490,8 @@ figure {
 
 }
 
-@media screen and (max-width:1492px)
-{
+@media screen and (max-width:1492px) {
+
     .clients__img div {
         margin: 2rem;
         width: 55vw;
@@ -521,23 +521,11 @@ figure {
         width: 80%;
 }
 
-@media screen and (max-width: 1100px)
-{
+@media screen and (max-width: 1100px) {
 
     .lotus {
         width: 100px;
     }
-
-    .hero__mandala {
-        top: 50%;
-        transform: translateY(-50%);
-        object-fit: contain;
-    }
-     img.img {
-        display: block;
-        max-width: 90vw;
-        border-radius: 10;
-     }
 
      .hero {
          margin-bottom: 0;
@@ -599,6 +587,7 @@ figure {
 
     .gallery__img {
         width: 100%;
+        padding: 0 1rem;
     }
 
     .gallery__content {
@@ -628,8 +617,30 @@ figure {
     }
 }
 
-@media screen and (max-width: 480px)
-{
+@media screen and (max-width: 580px) {
+    .hero__arrow-icon {
+        margin-top: 2rem;
+    }
+
+    .hero__link {
+        margin: 1rem 0 6rem;
+    }
+    
+    .hero__title {
+        font-size: var(--font-size-5);
+    }
+
+    .hero__mandala {
+        padding: 5rem 0 0;
+    }
+
+    .clients__title {
+        font-size: var(--font-size-3);
+    }
+}
+
+
+@media screen and (max-width: 480px) {
 
     .lotus {
         width: 80px;
@@ -651,10 +662,6 @@ figure {
     .hero__mandala {
         display: block;
         width: 400px;
-    }
-
-    .hero__title {
-        font-size: var(--font-size-5);
     }
 
     .hero__arrow-icon {
@@ -693,6 +700,7 @@ figure {
     .gallery {
         display: block;
     }
+
     .footer__content {
         padding: 0 2rem;
     }
@@ -719,20 +727,14 @@ figure {
     .clients__inner-container {
         margin: 4rem 0rem 6rem;
     }
-    }
 
     img.img {
-        display: block;
         min-width: 100%;
         border-radius: 0;
     }
     
     .gallery__inner {
         gap: 2rem;
-    }
-    
-    .gallery__img {
-        width: 80%;
     }
 }
 
